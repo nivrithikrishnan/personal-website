@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*spacers*/
+.spacer-50px{
+    max-height: 50px;
+    min-height: 50px;
+}
+
+.spacer-100px{
+    max-height: 100px;
+    min-height: 100px;
+}
+
+.spacer-200px{
+    max-height: 200px;
+    min-height: 200px;
+}
+
+/*titles*/
+
+.title{
+    font-size: 3.1em;
+    font-weight: 800;
+}
+.subtitle{
+    width: 85%;
+    font-size: 1.5em;
+    font-weight: 200;
+    line-height: 1.5em;
+}
+
+.note {
+    width: 85%;
+    padding: 0px 0px 50px 150px;
+}
+
+
+/*header*/
+.top-container {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    flex-direction: : row;
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+    padding: 300px 0px 50px 150px;
+}
+
+.home-pic{
+    order: 2;
+    width: 25%;
+    padding: 150px 200px 150px 200px;
+}
+
+/*my journey*/
+.journey-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 150px;
+}
+
+/*experience*/
+.experience-container{
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    padding-left: 150px;
+}
+
+/*skills*/
+.skills-container{
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    padding-left: 150px;
+}
+
+/*courses*/
+.courses-container{
+    max-width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    padding-left: 150px;
+}
+
+.courses-container2{
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.computer-science{
+    display: flex;
+    flex-direction: column;
+    padding-right: 150px;
+}
+
+.design{
+    display: flex;
+    flex-direction: column;
+    padding-right: 150px;
+}
+
+.other{
+    display: flex;
+    flex-direction: column;
+}
+
+/*final thoughts*/
+.bottom-container {
+    width: 100%;
+    display: flex;
+    flex-direction: : row;
+}
+
+.thank-you {
+    order: 1;
+    display: flex;
+    flex-direction: column;
+    padding-left: 150px;
+}
