@@ -2,27 +2,39 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
-        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="assets/index.css">
+        <link rel="shortcut icon" href="assets/media/home.png">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Nivrithi Krishnan</title>
     </head>
 
     <body>
-        <!-- Top Navigation Menu -->
-        <div class="top-nav">
-        </div>
 
-        <div class="spacer-100px"></div>
         <!-- Header -->
         <header>
-            <div class="note">
-                <br>*note: i have spent this past week learning html/css/java script and began making this portfolio a couple days ago. it is definetly a work in progress and chances are the next time you open it you may find some changes :)
+            <!-- Top Navigation Menu -->
+            <div class="spacer-50px"></div>
+            <div class="nav">
+                <div class="left-title"> Nivrithi Krishnan </div>
+                <div class="right-menu">
+                    <ul class = "menu">
+                        <a href="#journey"> <span> My Journey </span> </a>
+                        <a href="#experiences"> <span> Experiences </span> </a>
+                        <a href="#skills"> <span> Skills </span> </a>
+                        <a href="#coursework"> <span> Coursework </span> </a>
+                        <a href="#contact"> <span> Contact </span> </a>
+                    </ul>
+                </div>
             </div>
+            <div class="spacer-50px"></div>
+
+            <!-- Introduction -->
             <div class="top-container">
+                <div class="spacer-350px"></div>
+
                 <div class="home-pic">
                     <img src ="assets/media/home.png" alt="image of me" style="height: 500px">
                 </div>
-
                 <div class = "intro">
                     <div class = "title">
                         Hi! I'm Nivrithi Krishnan 👋
@@ -30,26 +42,35 @@
                     <div class = "subtitle">
                         I am an undergraduate student at UC Davis, currently on a journey to discover how i can apply my passion for computer science.
                     </div>
+                    <div class = "dropdown-arrow">
+                        <div class="spacer-350px"></div>
+                        <div class="bounce">
+                            <a href="#journey" class="arrow"> </a>
+                        </div>
+                        <div class="spacer-200px"></div>
+                    </div>
+
                 </div>
+
             </div>
         </header>
 
-        <div class="spacer-200px"></div>
 
         <!-- My Journey -->
-        <div class="journey-container">
+        <div class="journey-container", id="journey">
+        	<div class="spacer-200px"></div>
             <div class = "title"> My Journey </div>
             <div class="spacer-50px"></div>
             <div class = "subtitle">
                 Growing up, I always had a passion for anything involving arts and crafts and creative-problem solving, but it wasn't until my dad introduced me to java programming in the beginning of high school that I discovered my love for computer science. Fast forward to today, I am constantly discovering new tools within the subject that allow me to further explore that intersection between both technology and design to find innovative solutions to complex problems. When I am not creating, I love exploring new hobbies, baking, playing volleyball and swimming. 
             </div>
+            <div class="spacer-200px"></div>
         </div>
 
 
-        <div class="spacer-100px"></div>
-
         <!-- Experience -->
-        <div class="experience-container">
+        <div class="experience-container", id="experiences">
+        	<div class="spacer-200px"></div>
             <div class = "title"> Internship Experience </div> 
 
             <div class="spacer-50px"></div>
@@ -62,12 +83,12 @@
             <div class = "subtitle"> Girls Who Code Immersion Program, Ford Motor Co.</div>
                 • 7-Wk Immersion Program that covered Python, Robotics, Web Development, Data Visualization and Analytics <br>
                 • Designed a website (private) where people could locate their lost pets using HTML, JavaScript, and CSS
+            <div class="spacer-200px"></div>
         </div>
 
-        <div class="spacer-100px"></div>
-
         <!-- Skills -->
-        <div class="skills-container">
+        <div class="skills-container", id="skills">
+        	<div class="spacer-200px"></div>
             <div class = "title"> Skills </div> 
 
             <div class="spacer-50px"></div>
@@ -78,12 +99,13 @@
             <div class="spacer-50px"></div>
             <div class = "subtitle"> Tools </div>
                 Familiar: Adobe InDesign, Figma
+            <div class="spacer-200px"></div>
         </div>
 
-        <div class="spacer-200px"></div>
 
         <!-- Courses -->
-        <div class="courses-container">
+        <div class="courses-container", id="coursework">
+        	<div class="spacer-200px"></div>
             <div class = "title"> Courses </div> 
             <div class="spacer-50px"></div>
 
@@ -99,7 +121,6 @@
                 <div class ="design">
                     <div class = "subtitle"> Design </div>
                         Introduction to Design <br>
-                        Design Drawing <br>
                         Form & Color <br>
                         Design Aesthetics/Experience (current) <br>
                 </div>
@@ -111,23 +132,23 @@
                         Classical Physics <br>
                 </div>
             </div>
-            <div class="spacer-50px"></div>
+            <div class="spacer-200px"></div>
         </div>
 
-        <div class="spacer-200px"></div>
 
         <!-- Final Thoughts -->
-        <div class="bottom-container">
+        <div class="bottom-container", id="contact">
             <div class="thank-you">
+            	<div class="spacer-200px"></div>
                 <div class = "subtitle">
                     Thank you for taking the time to visit my portfolio! Feel free to reach out to me through LinkedIn or by email.
 
                     For more info on my work, here is my resume.
                 </div>
             </div>
+            <div class="spacer-350px"></div>
+            <div class="spacer-350px"></div>
         </div>
-        <div class="spacer-200px"></div>
-        
     </body>
 
 </html>
