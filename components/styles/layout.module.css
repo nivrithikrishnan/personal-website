@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 10% 25%;
+  }
+
+  /* Regular Desktop */
+  @media (max-width: 1700px) {
+    .container{
+      margin: 10% 15%;
+    }
+  }

@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 1.75em;
+    margin-bottom: 0;
+}
+
+.icon {
+    height: 75%;
+    opacity: 75%;
+}
+
+.icon:hover{
+    opacity: 100%;
+}
+
+.line {
+    opacity: 50%;
+    max-height: 2em;
+}
+
+@media (max-width: 850px) {
+    .container{
+      justify-content: center;
+    }
+  }
