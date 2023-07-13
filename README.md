@@ -1,1 +1,1 @@
-check it out here -> nivrithikrishnan.vercel.app
+check it out [here](nivrithikrishnan.vercel.app)!
