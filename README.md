@@ -1,1 +1,1 @@
-check it out [here]([nivrithikrishnan.vercel.app](https://nivrithikrishnan.vercel.app/)https://nivrithikrishnan.vercel.app/)!
+check the it out at → [https://nivrithikrishnan.vercel.app/](https://nivrithikrishnan.vercel.app/)
