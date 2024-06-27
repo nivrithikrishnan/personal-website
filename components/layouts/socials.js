@@ -10,7 +10,7 @@ const Socials = () => {
         <a href="https://www.linkedin.com/in/nivrithi-krishnan/"><img src="/media/icons/linkedin.png" alt="LinkedIn" className={styles.icon} /></a>
         <a href="https://github.com/nivrithikrishnan"><img src="/media/icons/github.png" alt="GitHub" className={styles.icon} /></a>
         {/*<img src="/media/icons/line.png" alt="|" className={styles.line}/>*/}
-      {</*a href="https://www.goodreads.com/user/show/113843935-nivrithi-krishnan"><img src="/media/icons/gr.png" alt="Goodreads" className={styles.icon} /></a> */}
+      {/*<a href="https://www.goodreads.com/user/show/113843935-nivrithi-krishnan"><img src="/media/icons/gr.png" alt="Goodreads" className={styles.icon} /></a> */}
       {/*<a href="https://letterboxd.com/nskrishn/"><img src="/media/icons/lb.png" alt="Letterboxd" className={styles.icon} /></a> */}
       </nav>
     </div>
