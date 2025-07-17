@@ -11,8 +11,9 @@ export default function Home() {
         <link rel="icon" href="/media/profile.png" />
       </Head>
       <main className={styles.container}>
-        <div className={styles.left}>
+        <div /*className={styles.left}*/>
           <img src="/media/profile.png" alt="Nivrithi Krishnan" className={styles.logo} />
+          <br></br>
           <br></br>
           <Socials />
         </div>
